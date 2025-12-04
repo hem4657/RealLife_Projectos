@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    border: 2px solid green;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgb(3,3,83);
+    height: 100vh;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}

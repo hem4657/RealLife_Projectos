@@ -1,0 +1,6 @@
+<div>
+  {'{'}% comment %{'}'} {'{'}%extends 'base.html'%{'}'} {'{'}% endcomment %{'}'}
+  {'{'}%include 'header.html'%{'}'}
+  {'{'}% block content %{'}'}{'{'}% endblock %{'}'}
+  {'{'}%include 'footer.html'%{'}'}
+</div>

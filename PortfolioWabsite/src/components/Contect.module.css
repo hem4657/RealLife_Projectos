@@ -1,0 +1,122 @@
+.container{
+    border: 2px solid red;
+    background-color: #2e0249;
+    color: white;
+    height: 100%;
+    margin-top: 32%;
+    display: flex;
+}
+.heading{
+    width: 30%;
+    margin: 50px 0px 0px 30px;
+    height: 100%;
+}
+.heading p{
+    font-size: 20px;
+}
+.section{
+    width: 70%;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px black;
+    display: flex;
+    background-color: #A91079;
+}
+.box{
+    width: 50%;
+    border-radius: 5px;
+}
+.box h1{
+    width: 60%;
+    margin: 40px;
+}
+.email{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-left: 20px;
+}
+.email i{
+    color: #2e0249;
+}
+.email a{
+    text-decoration: none;
+    color: white;
+}
+.phone{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.phone i{
+    color: #2e0249;
+}
+.phone a{
+    text-decoration: none;
+    color: white;
+}
+.location{
+    display: flex;
+    justify-content: space-evenly;
+    width: 53%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.location i{
+    color: #2e0249;
+}
+.location a{
+    text-decoration: none;
+    color: white;
+}
+.box1{
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin: 30px;
+    background-color: white;
+}
+.intrest{
+    margin: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.desgin{
+    display: flex;
+    justify-content: space-evenly;
+}
+.desgin button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: wheat;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 5px 9px black;
+}
+.desgin button:hover{
+    background-color: #A91079;
+    color: white;
+}
+.system{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.system button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: wheat;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 5px 9px black;
+}
+.system button:hover{
+    background-color: #A91079;
+    color: white;
+}

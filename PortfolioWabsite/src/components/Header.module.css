@@ -1,0 +1,82 @@
+.header1{
+    background-color: rgb(64, 64, 84);
+    /* padding: 10px; */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.h1{
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.searchBox{
+    width: 250px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.searchInput{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(4, 4, 97);
+    box-shadow: 0px 0px 9px blue;
+}
+.searchInput:hover{
+    box-shadow: 0px 0px 25px blue;
+}
+.searchInput::placeholder{
+    padding-left: 30%;
+    margin-left: 50px;
+    color: white;
+}
+.searchIcon{
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    transform: translateY(50%);
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+}
+.box{
+    width: 40%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.box li{
+    list-style-type: none;
+    padding: 7px;
+    text-align: center;
+    border-radius: 7px;
+    background-color:  rgb(4, 4, 97);
+    box-shadow: 0px 0px 9px blue;
+    width: 100px;
+}
+.box li:hover{
+    box-shadow: 0px 0px 30px blue;
+}
